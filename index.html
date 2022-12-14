@@ -1,0 +1,33 @@
+<html>
+   <head>
+      <script type="text/javascript" src="action.js"></script>
+      <title>Pogue's Puncture</title>
+      <link rel = "stylesheet" href = "style.css"/>
+   </head>
+   <body>
+      <h1> Pogue's Puncture</h1>
+      <h4>Click the bloon to pop it, and buy upgrades!</h4>
+     <div class="flexcont">
+      <div class="imgs">
+         <img src="bloon.png" width="400px" onclick="cookieClick(1); whiteclick();"/>
+      </div>
+        <div class="button">
+         <button onclick="checkthumb()">Thumbtack (1pps)</button>
+         <button onclick="checkneedle()">Needle (5pps)</button>
+         <button onclick="checknerf()">Nerf gun (20pps)</button>
+         <button onclick="checkdart()">Dart gun (60pps)</button>
+         <button onclick="checkchain()">Chainsaw(100pps)</button>
+    </div>
+    <h3>Costs</h3>
+     <div class="values">
+      <div class="flexitem">Thumbtack:<span id=tcost>100</span></div>
+      <div class="flexitem">Needle:<span id=ncost>200</span></div>
+      <div class="flexitem">Nerfgun:<span id=necost>1000</span></div>
+      <div class="flexitem">Dartgun:<span id=dcost>2000</span></div>
+      <div class="flexitem">Chainsaw:<span id=ccost>5000</span></div>
+     </div>
+      <div class="pops">
+         <p><b>Pops: <span class="num"><span id = "numbers">0</span></span></b></p>
+      </div>
+   </body>
+</html>
